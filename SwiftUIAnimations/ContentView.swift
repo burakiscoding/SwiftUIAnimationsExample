@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isShowing: Bool = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack {
+                Image(systemName: "bell.fill")
+                    .font(.largeTitle)
+                Text("Silent mode")
+            }
+            .padding(EdgeInsets(top: 4, leading: 16, bottom: 4, trailing: 16))
+            .background(.gray.secondary)
+            .cornerRadius(32)
+            .offset(y: isShowing ? -200 : 0)
+            .onAppear {
+                withAnimation(.easeIn.delay(1)) {
+                    isShowing.toggle()
+                }
+            }
+            Button("Silent Mode") {
+                withAnimation(.easeIn) {
+                    isShowing.toggle()
+                }
+            }
         }
         .padding()
     }

@@ -11,6 +11,16 @@
 		BC09B3642C6E698100735700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3632C6E698100735700 /* ContentView.swift */; };
 		BC09B3662C6E698200735700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC09B3652C6E698200735700 /* Assets.xcassets */; };
 		BC09B3692C6E698200735700 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC09B3682C6E698200735700 /* Preview Assets.xcassets */; };
+		BC09B3712C6E6C8600735700 /* EaseInExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3702C6E6C8600735700 /* EaseInExample.swift */; };
+		BC09B3742C6E6DD600735700 /* EaseInOutExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3732C6E6DD600735700 /* EaseInOutExample.swift */; };
+		BC09B37A2C6E7C1700735700 /* LinearExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3792C6E7C1700735700 /* LinearExample.swift */; };
+		BC09B37C2C6E8BEB00735700 /* LinearExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B37B2C6E8BEB00735700 /* LinearExample2.swift */; };
+		BC09B37F2C6E916500735700 /* AnimationCompletionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B37E2C6E916500735700 /* AnimationCompletionExample.swift */; };
+		BC09B3812C6F537700735700 /* FlipCharactersAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3802C6F537700735700 /* FlipCharactersAnimation.swift */; };
+		BC09B3832C6F557700735700 /* StackedRectanglesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3822C6F557700735700 /* StackedRectanglesExample.swift */; };
+		BC09B3852C6F568B00735700 /* WWDC24InviteExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3842C6F568B00735700 /* WWDC24InviteExample.swift */; };
+		BC09B3872C6F59FA00735700 /* CirclesAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B3862C6F59FA00735700 /* CirclesAnimationExample.swift */; };
+		BC09B38B2C6F8CC900735700 /* RotatingCirclesAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC09B38A2C6F8CC900735700 /* RotatingCirclesAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		BC09B3632C6E698100735700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC09B3652C6E698200735700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC09B3682C6E698200735700 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC09B3702C6E6C8600735700 /* EaseInExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseInExample.swift; sourceTree = "<group>"; };
+		BC09B3732C6E6DD600735700 /* EaseInOutExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EaseInOutExample.swift; sourceTree = "<group>"; };
+		BC09B3792C6E7C1700735700 /* LinearExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearExample.swift; sourceTree = "<group>"; };
+		BC09B37B2C6E8BEB00735700 /* LinearExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearExample2.swift; sourceTree = "<group>"; };
+		BC09B37E2C6E916500735700 /* AnimationCompletionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionExample.swift; sourceTree = "<group>"; };
+		BC09B3802C6F537700735700 /* FlipCharactersAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCharactersAnimation.swift; sourceTree = "<group>"; };
+		BC09B3822C6F557700735700 /* StackedRectanglesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedRectanglesExample.swift; sourceTree = "<group>"; };
+		BC09B3842C6F568B00735700 /* WWDC24InviteExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC24InviteExample.swift; sourceTree = "<group>"; };
+		BC09B3862C6F59FA00735700 /* CirclesAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesAnimationExample.swift; sourceTree = "<group>"; };
+		BC09B38A2C6F8CC900735700 /* RotatingCirclesAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCirclesAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,10 @@
 		BC09B3602C6E698100735700 /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				BC09B37D2C6E915900735700 /* Examples */,
+				BC09B3782C6E7C0900735700 /* Linear */,
+				BC09B3722C6E6DC800735700 /* EaseInOut */,
+				BC09B36F2C6E6C6A00735700 /* EaseIn */,
 				BC09B3612C6E698100735700 /* SwiftUIAnimationsApp.swift */,
 				BC09B3632C6E698100735700 /* ContentView.swift */,
 				BC09B3652C6E698200735700 /* Assets.xcassets */,
@@ -65,6 +89,44 @@
 				BC09B3682C6E698200735700 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC09B36F2C6E6C6A00735700 /* EaseIn */ = {
+			isa = PBXGroup;
+			children = (
+				BC09B3702C6E6C8600735700 /* EaseInExample.swift */,
+			);
+			path = EaseIn;
+			sourceTree = "<group>";
+		};
+		BC09B3722C6E6DC800735700 /* EaseInOut */ = {
+			isa = PBXGroup;
+			children = (
+				BC09B3732C6E6DD600735700 /* EaseInOutExample.swift */,
+			);
+			path = EaseInOut;
+			sourceTree = "<group>";
+		};
+		BC09B3782C6E7C0900735700 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				BC09B3792C6E7C1700735700 /* LinearExample.swift */,
+				BC09B37B2C6E8BEB00735700 /* LinearExample2.swift */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
+		BC09B37D2C6E915900735700 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				BC09B37E2C6E916500735700 /* AnimationCompletionExample.swift */,
+				BC09B3802C6F537700735700 /* FlipCharactersAnimation.swift */,
+				BC09B3822C6F557700735700 /* StackedRectanglesExample.swift */,
+				BC09B3842C6F568B00735700 /* WWDC24InviteExample.swift */,
+				BC09B3862C6F59FA00735700 /* CirclesAnimationExample.swift */,
+				BC09B38A2C6F8CC900735700 /* RotatingCirclesAnimation.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC09B37C2C6E8BEB00735700 /* LinearExample2.swift in Sources */,
+				BC09B3712C6E6C8600735700 /* EaseInExample.swift in Sources */,
+				BC09B3852C6F568B00735700 /* WWDC24InviteExample.swift in Sources */,
 				BC09B3642C6E698100735700 /* ContentView.swift in Sources */,
+				BC09B3812C6F537700735700 /* FlipCharactersAnimation.swift in Sources */,
+				BC09B37A2C6E7C1700735700 /* LinearExample.swift in Sources */,
+				BC09B3832C6F557700735700 /* StackedRectanglesExample.swift in Sources */,
+				BC09B3742C6E6DD600735700 /* EaseInOutExample.swift in Sources */,
 				BC09B3622C6E698100735700 /* SwiftUIAnimationsApp.swift in Sources */,
+				BC09B37F2C6E916500735700 /* AnimationCompletionExample.swift in Sources */,
+				BC09B38B2C6F8CC900735700 /* RotatingCirclesAnimation.swift in Sources */,
+				BC09B3872C6F59FA00735700 /* CirclesAnimationExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
